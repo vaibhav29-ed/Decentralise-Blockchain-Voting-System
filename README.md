@@ -33,28 +33,6 @@ To develop a **trustless voting mechanism** where:
 
 ---
 
-## 📁 Project Structure
-
-blockchain-voting/
-├── contracts/
-│ └── Voting.sol # Solidity smart contract defining voting logic
-├── scripts/
-│ └── deploy.js # Deployment script to deploy the contract to blockchain
-├── frontend/
-│ ├── src/
-│ │ ├── VotingView.jsx # Main React component for interacting with the smart contract
-│ │ ├── App.jsx # Entry point rendering the voting interface
-│ │ └── main.jsx # React root configuration
-│ ├── package.json # React dependencies and scripts
-│ ├── vite.config.js # Vite configuration for building the app
-│ └── index.html # Root HTML file
-├── hardhat.config.js # Hardhat network & compiler configuration
-├── .env # Contains private keys & RPC URL (never commit this)
-├── package.json # Node dependencies
-└── README.md # Project documentation
-
----
-
 ## 💡 How It Works
 
 ### 1️⃣ **Smart Contract Logic (`Voting.sol`)**
